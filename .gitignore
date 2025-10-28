@@ -1,0 +1,28 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
+
+# Vector stores and model caches
+*.faiss
+*.pkl
+*.bin
+
+# System files
+.DS_Store
+Thumbs.db
